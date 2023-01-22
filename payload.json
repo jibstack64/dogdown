@@ -1,0 +1,10 @@
+{
+    "url": "www.not-a-real-website.site",
+    "method": "POST",
+    "headers": {
+        "User-Agent": "Bot"
+    },
+    "data": {
+        "mood": "happy"
+    }
+}
