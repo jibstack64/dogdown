@@ -1,5 +1,7 @@
 # dogdown
 
+![GitHub](https://img.shields.io/github/license/jibstack64/dogdown) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/jibstack64/dogdown)
+
 *A Python script for sending a large quantity of a given payload to a HTTP(S) server.*
 
 Put your payload information in a JSON file (e.g. `payload.json`). Make sure it is in the same directory as where the script is being ran. When ran, the script will give you a selection of the JSON files (that it finds in the same directory) to choose from as your payload.
