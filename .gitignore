@@ -1,1 +1,3 @@
-pl.json
+*.json
+!payload.json
+!proxies.json

@@ -59,7 +59,8 @@ try:
 	for x in range(THREADS):
 		threading.Thread(target=raw_dog, args=(x,)).start()
 		print(f"{Colour.LIGHTGREEN_EX}starting {x} thread...")
-		time.sleep(5)
+		time.sleep(1)
+	c = True
 except Exception as ex:
 	print(f"{Colour.LIGHTRED_EX}{ex.with_traceback(None)}{Colour.RESET}")
 	c = False
