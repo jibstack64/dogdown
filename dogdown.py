@@ -1,11 +1,16 @@
 # import required libraries
 from colorama import Fore as Colour
+import colorama
 import requests
 import random
 import threading
 import time
 import json
 import os
+
+# colours for windows
+if os.name != "posix":
+	colorama.init(convert=True)
 
 # load payload
 files = os.listdir()
